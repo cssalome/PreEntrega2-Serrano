@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+}
+
+/* HERADER  */
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 90px;
+background-color: rgb(253, 249, 185)
+};
+
+nav menu {
+  list-style: none;
+  display :flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+li,a,p,button{
+  text-decoration: none;
+  display:inline-block ;
+  color: rgb(135, 50, 204);
+  /* color: rgb(76, 70, 133); */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.li-menu{
+  padding: 0px 20px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(195, 160, 240);
+  color:aliceblue;
+  border-radius: 15px;
+  /* outline: none; */
+  border: none;
+
+}
+
+/* HERO */
+
+section{
+ color:rgb(255, 255, 255);
+  /* background-image: url(../assets/img/pexels-jonny-lew-1121123.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+section button{
+  background-color:rgb(253, 249, 185);
+
+}
+
+.seccion-inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(195, 160, 240);
+  justify-content: center ;
+
+  height: 400px;
+  
+}
+
+.contenedor-frace{
+  width: 400px;
+  display: flex;
+  align-items: center
+  
+}
+.frace{
+  font-size:60px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  
+}
+
+/* FOOTER */
+
+footer{
+  background-color:rgb(76, 70, 133);
+  color: aliceblue;
+  display:flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+footer a, p,img{
+  color:aliceblue;
+  margin-top: 4px;
+  /* fill: currentColor !important; */
+  font-size: 15px;
+  font-weight: 200;
+}
+
+footer h3{
+  margin-top: 0px;
+}
+footer p{
+  margin-top:4px;
+}
+
+.li-footer{
+  list-style: none;
+}
+
+.indice{
+  padding: 0;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-part{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between ;
+  width: 110px;
+}
